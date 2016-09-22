@@ -1,2 +1,3 @@
 platform :ios,8.0
 target “JsonVsOCDemo”
+pod 'libextobjc', '~> 0.4.1'

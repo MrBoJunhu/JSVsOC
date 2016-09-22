@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '90B4BC1A42248948419C5130B45F9D06'
-               BlueprintName = 'Pods-JsonVsOCDemo'
+               BlueprintIdentifier = '7E41CA2ECB40C640963734378302229C'
+               BlueprintName = 'libextobjc'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-JsonVsOCDemo.a'>
+               BuildableName = 'liblibextobjc.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
