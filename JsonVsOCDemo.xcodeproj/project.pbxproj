@@ -16,6 +16,7 @@
 		A916FB091D90C433008B7E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A916FB071D90C433008B7E7A /* LaunchScreen.storyboard */; };
 		A916FB141D90C433008B7E7A /* JsonVsOCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A916FB131D90C433008B7E7A /* JsonVsOCDemoTests.m */; };
 		A916FB1F1D90C433008B7E7A /* JsonVsOCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A916FB1E1D90C433008B7E7A /* JsonVsOCDemoUITests.m */; };
+		A928ED4A1D90C77A001D0411 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A928ED491D90C77A001D0411 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A916FB1A1D90C433008B7E7A /* JsonVsOCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonVsOCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A916FB1E1D90C433008B7E7A /* JsonVsOCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonVsOCDemoUITests.m; sourceTree = "<group>"; };
 		A916FB201D90C433008B7E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A928ED491D90C77A001D0411 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A928ED4A1D90C77A001D0411 /* JavaScriptCore.framework in Frameworks */,
 				19DE88ABF92944F573243943 /* libPods-JsonVsOCDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +162,7 @@
 		B1427BD23392C503B9BD61A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A928ED491D90C77A001D0411 /* JavaScriptCore.framework */,
 				1D21AD1F6D386423F26650FF /* libPods-JsonVsOCDemo.a */,
 			);
 			name = Frameworks;
