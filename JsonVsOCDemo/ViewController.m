@@ -48,6 +48,8 @@
      */
     JSContext *context = [webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     
+    ;
+    WeakSelf;
     context[@"passValue"] = ^{   // 其中 passValue 是JS的函数名，得到的 arg数组 里面为JS的 passValue 函数的参数，即 JS要传给OC的参数。
         
         NSArray *arg = [JSContext currentArguments];
@@ -57,6 +59,8 @@
             NSLog(@"obj :  %@", obj);
         
         }
+        StrongSelf;
+        [self doSomething];
         
     };
     
@@ -88,4 +92,10 @@
     
     return YES;
 }
+
+#pragma mark - 测试方法
+- (void)doSomething {
+    NSLog(@"do  something!");
+}
+
 @end
